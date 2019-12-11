@@ -4,9 +4,13 @@ def line(customers)
   if customers.count == 0
     return "The line is currently empty."
   else
-    place_in_line = 1
-    while place_in_line <= customers.count
-    return "The line is currently: "
+    
+    customer = 0
+    while customer < customers.count
+      line_of_cust = []
+      
+    
+    return "The line is currently: #{customer + 1}. #{customers[customer]"
   end
 end
 
