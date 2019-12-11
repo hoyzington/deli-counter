@@ -18,10 +18,10 @@ end
 def take_a_number(customers, new)
   puts "Welcome, #{new}. You are number #{customers.size + 1} in line."
   customers << new
-  # customers
 end
 
 
-def now_serving
-  
+def now_serving(customers)
+  puts "Currently serving #{customers[0]}."
+  customers.unshift
 end
