@@ -22,6 +22,6 @@ end
 
 
 def now_serving(customers)
-  puts "Currently serving #{customers[0]}."
-  customers.unshift
+  puts "Currently serving #{customers.shift}."
+  #customers
 end
