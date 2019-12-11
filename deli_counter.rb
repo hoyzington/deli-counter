@@ -2,7 +2,7 @@ katz_deli = []
 
 def line(customers)
   if customers.count == 0
-    return "The line is currently empty."
+    puts "The line is currently empty."
   else
     line_of_cust = []
     customer = 0
@@ -10,7 +10,7 @@ def line(customers)
       line_of_cust << "#{customer + 1}. #{customers[customer]}"
       customer += 1
     end
-    return "The line is currently: #{line_of_cust.join(" ")}"
+    puts "The line is currently: #{line_of_cust.join(" ")}"
   end
 end
 
