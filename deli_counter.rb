@@ -23,5 +23,5 @@ end
 
 def now_serving(customers)
   puts "Currently serving #{customers.shift}."
-  #customers
+  customers
 end
