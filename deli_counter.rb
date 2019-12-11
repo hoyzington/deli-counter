@@ -18,7 +18,7 @@ end
 def take_a_number(customers, new)
   puts "Welcome, #{new}. You are number #{customers.size + 1} in line."
   customers << new
-  customers
+  # customers
 end
 
 
